@@ -1,0 +1,12 @@
+{% extends 'blog/base.htm' %}
+
+{% block content %}
+  {% if article.published_date %}
+    {{ article.published_date }}
+  {% endif %}
+  <h1>{{ article.title }}</h1>
+  <!--h2><small>Category yet to come</small></h2 -->
+  <p class="lead">{{ article.content|linebreaksbr }}</p>
+  <p>{{ article.likes }} people liked the article.</p>
+  <p><a href="like/{{ article.id }}">Like</a></p>
+{% endblock %}

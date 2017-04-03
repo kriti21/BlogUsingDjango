@@ -1,0 +1,84 @@
+div {
+  padding-left: 20px;
+}
+ul {
+  list-style-type: none;
+  background-color: #2F4F4F;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #2F4F4F;
+}
+ul.navbar {
+  list-style-type: none;
+  background-color: #2F4F4F;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 18px;
+  font-family: fantasy;
+  font-size: 1.1em;
+}
+
+li a:hover {
+  background-color: #8FBC8F;
+  text-decoration: none;
+}
+
+.themeNlogo {
+  margin-left: 10px;
+  margin-right: 75%;
+  font-weight: bold;
+  font-stretch: expanded;
+}
+p {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+}
+blockquote {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+ul.bealeader {
+  list-style-type: disc;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px;
+}
+.addarticle {
+  padding: 10px;
+  height: 30%;
+  width: 25%;
+  margin: 10%;
+  float: center;
+  background-color: inherit;
+  color: #8FBC8F;
+  border: 2px solid black;
+}

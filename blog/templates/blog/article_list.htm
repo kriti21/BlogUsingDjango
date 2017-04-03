@@ -1,0 +1,14 @@
+{% extends 'blog/base.htm' %}
+
+{% block content %}
+  {% for article in articles %}
+    <div>
+      <p class="page-header" >
+        <h1><a href="{% url 'article_detail' pk=article.pk %}">{{ article.title }}</a></h1>
+        <!-- h2><small>Category yet to come</small></h2 -->
+      </p>
+      <p class="lead">{{ article.content|linebreaksbr }}</p>
+      <p>{{ article.likes }} people liked the article.</p>
+    </div>
+  {% endfor %}
+{% endblock %}
